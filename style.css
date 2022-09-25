@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background: #000;
+    padding: 20px 0;
+}
+
+.listmenu {
+    display: inline-block;
+    width: 85%;
+    text-align: right;
+}
+
+.logo img {
+    width: 14%;
+}
+
+.listmenu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 5px;
+}
+
+.header {
+    height: 100vh;
+    background: rgb(14, 255, 0);
+    background: linear-gradient(142deg, rgba(14, 255, 0, 1) 0%, rgba(255, 231, 0, 1) 50%, rgba(255, 0, 0, 1) 100%);
+    overflow: hidden;
+    position: relative;
+}
+
+.headerbg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.headercontent {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    text-shadow: 10px 10px 10px rgb(31, 184, 0);
+
+}
+
+.hedp {
+    width: 40%;
+    display: inline-block;
+    padding: 25px 20px;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-shadow: none;
+    box-shadow: 10px 10px 10px rgb(31, 184, 0);
+    background: rgb(255, 255, 255);
+}
+
+.hbg1 {
+    width: 25%;
+    position: absolute;
+    top: -140px;
+    left: -50px;
+    animation: hbg1 ease 4s infinite;
+}
+
+.hbg2 {
+    width: 25%;
+    position: absolute;
+    top: -120px;
+    left: 700px;
+    animation: hbg2 ease 5s infinite;
+}
+
+.hbg3 {
+    width: 40%;
+    position: absolute;
+    top: 160px;
+    left: -30px;
+    animation: hbg3 ease 5.5s infinite;
+}
+
+.hbg4 {
+    width: 150px;
+    position: absolute;
+    top: 70vh;
+    left: 250px;
+    animation: hbg4 ease 6s infinite;
+}
+
+.hbg5 {
+    width: 30%;
+    position: absolute;
+    top: 59vh;
+    right: -11vh;
+    animation: hbg5 ease 4s infinite;
+}
+
+.hbg6 {
+    width: 7%;
+    position: absolute;
+    left: 400px;
+    top: 70px;
+    animation: hbg6 ease 5s infinite;
+}
+
+.hbg7 {
+    width: 10%;
+    position: absolute;
+    left: 500px;
+    top: 320px;
+    animation: hbg7 ease 3s infinite;
+}
+
+@keyframes hbg6 {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(720deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
+
+@keyframes hbg5 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes hbg7 {
+    0% {
+        transform: scale(1) rotate(0);
+    }
+
+    50% {
+        transform: scale(0.5) rotate(360deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(0);
+    }
+}
+
+@keyframes hbg4 {
+    0% {
+        transform: skew(0);
+    }
+
+    50% {
+        transform: skew(40deg);
+    }
+
+    100% {
+        transform: skew(0);
+    }
+}
+
+@keyframes hbg1 {
+    0% {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(100px, 100px);
+    }
+
+    100% {
+        transform: translate(0);
+    }
+}
+
+@keyframes hbg2 {
+    0% {
+        transform: scale(1) translate(0);
+    }
+
+    50% {
+        transform: scale(0.5) translate(200px, -50px);
+    }
+
+    100% {
+        transform: scale(1) translate(0);
+    }
+}
+
+@keyframes hbg3 {
+    0% {
+        transform: scale(1) translate(0);
+    }
+
+    50% {
+        transform: scale(0.5) translate(-400px, 300px);
+    }
+
+    100% {
+        transform: scale(1) translate(0);
+    }
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.abautuscontent {
+    text-align: center;
+}
+
+h2 {
+    margin: 15px 0;
+    font-size: 46px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.menu2 h2 {
+    color: white;
+}
+
+.uslugi {
+    background: rgb(198, 131, 131);
+    background: linear-gradient(170deg, rgba(198, 131, 131, 1) 58%, rgba(255, 255, 255, 1) 59%);
+}
+
+hr {
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid rgb(255, 209, 57);
+}
+
+.card {
+    width: 30%;
+    display: inline-block;
+    background: white;
+    text-align: center;
+    height: 450px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 10px;
+    vertical-align: top;
+    border-radius: 25px;
+    border: 5px solid rgb(255, 209, 57);
+}
+
+.itemdoing {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+}
+
+.doing {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(187deg, rgba(255, 255, 255, 1) 32%, rgba(244, 228, 126, 1) 33%, rgba(198, 131, 131, 1) 69%);
+}
+
+.dt {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    box-shadow: 5px 5px 0 rgba(255, 68, 0, 0.712);
+}
+
+.itemgood {
+    width: 50%;
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 30px 0;
+    margin-left: 200px;
+    border: 5px solid rgb(255, 209, 57);
+    box-shadow: 5px 5px 0 rgba(255, 68, 0, 0.712);
+}
+
+.itegood2 {
+    margin-left: 400px;
+}
+
+.itemgood ul {
+    margin-left: 20px;
+    list-style: circle;
+}
+
+.img {
+    width: 49%;
+    border-radius: 15px;
+    border: 5px solid rgba(255, 68, 0, 0.712);
+}
+
+.footer {
+    background: rgb(255, 240, 143);
+    background: linear-gradient(1deg, rgb(248, 231, 122) 0%, rgba(198, 131, 131, 1) 92%);
+}
+
+.list {
+    background: white;
+    color: black;
+    display: block;
+    width: 60%;
+    padding: 18px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 50px;
+    text-shadow: none;
+    box-shadow: 6px 6px rgba(255, 68, 0, 0.76);
+}
+
+.good {
+    position: relative;
+    z-index: -1;
+}
+
+.goodcont {
+    position: relative;
+    z-index: 9;
+}
+
+.hbg8 {
+    width: 30%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: hbg3 ease 4s infinite;
+}
+
+.hbg9 {
+    width: 20%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    animation: hbg7 ease 2s infinite;
+}

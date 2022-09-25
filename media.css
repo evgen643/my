@@ -1,0 +1,99 @@
+@media(max-width:600px) {
+    .container {
+        width: 90%;
+        padding: 20px 0;
+
+    }
+
+    .itemgood {
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    .imgd {
+        display: none;
+    }
+
+    .itemdoing {
+        width: 100%;
+        margin: auto;
+    }
+
+    .card {
+        width: 100%;
+        display: block;
+        margin: 10px 0;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .hedp {
+        width: 60%;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .listmenu {
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .logo img {
+        width: 20%;
+    }
+
+    .logo {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .header{
+        height: 100vh;
+    }
+    .hbg1 {
+        left: -50px;
+        top: -30px;
+    }
+
+    .hbg2 {
+        left: 300px;
+        top: 10px;
+    }
+
+    .hbg3 {
+        width: 70%;
+        left: 0;
+        top: 550px;
+    }
+
+    .hbg4 {
+        width: 20%;
+        left: 50px;
+       top: 750px;
+    }
+
+    .hbg5 {
+        width: 60%;
+        right: -50px;
+       top: 650px;
+    }
+
+    .hbg6 {
+        width: 20%;
+        left: 170px;
+       top: 200px;
+    }
+
+    .hbg7 {
+        width: 20%;
+        left: 200px;
+       top: 570px;
+    }
+
+
+}
